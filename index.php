@@ -315,11 +315,32 @@ echo '							</p>
 // 	}
 // }
 
-echo'							</p> 
+echo"							</p> 
 						</div>
-						<div class="uk-width-medium-4-6">
-							<h2 id="description">'. tl('Description') .'</h2>
-							<p>'. COMPANY_DESCRIPTION .'</p>';
+						<div class=\"uk-width-medium-4-6\">
+							<h2 id=\"description\">". tl('Description') ."</h2>
+							<p>
+							Protect planet Earth in this exciting retro-futuristic puzzle game that will test your alertness, quick thinking and multi-tasking skills.
+							</br></br>
+							Test yout cunning!
+							</br></br>
+							In this game you'll join the the ranks of the Special Defense Force and control the Cygnus Alpha Defense base through 5 interconnected consoles simultaneously, each one with its own controlling scheme and effects on the system as a whole. 
+							</br></br>
+
+							The game features:
+							</br>
+							- 15 hand-crafted levels, 3+ hours of total gameplay</br>
+							- Beautiful stylized retro-futuristic art</br>
+							- A novel take on using space as puzzle design element</br>
+							
+							</p>";
+
+							
+echo'
+		<h2>Store Link</h2>
+		
+
+		';
 
 // for( $i = 0; $i < count($histories); $i++ )
 // {
@@ -517,33 +538,33 @@ echo '					<hr>';
 // echo('</ul><hr>');
 // }
 
-if( count($quotes) > 0 )
-{
-	echo '					<h2 id="quotes">'. tl('Selected Articles') .'</h2>
-						<ul>';
+// if( count($quotes) > 0 )
+// {
+// 	echo '					<h2 id="quotes">'. tl('Selected Articles') .'</h2>
+// 						<ul>';
 	
-	for( $i = 0; $i < count($quotes); $i++ )
-	{
-		$description = $name = $website = $link = "";
+// 	for( $i = 0; $i < count($quotes); $i++ )
+// 	{
+// 		$description = $name = $website = $link = "";
 	
-		foreach( $quotes[$i]['quote']->children() as $child )
-		{
-			if( $child->getName() == "description" ) {
-				$description = $child;
-			} else if( $child->getName() == "name" ) {
-				$name = $child;
-			} else if( $child->getName() == "website" ) {
-				$website = $child;
-			} else if( $child->getName() == "link" ) {
-				$link = $child;
-			}
-		}
+// 		foreach( $quotes[$i]['quote']->children() as $child )
+// 		{
+// 			if( $child->getName() == "description" ) {
+// 				$description = $child;
+// 			} else if( $child->getName() == "name" ) {
+// 				$name = $child;
+// 			} else if( $child->getName() == "website" ) {
+// 				$website = $child;
+// 			} else if( $child->getName() == "link" ) {
+// 				$link = $child;
+// 			}
+// 		}
 	
-		echo '<li>"'.$description.'"<br/><cite>- '.$name.', <a href="http://'.parseLink($link).'/">'.$website.'</a></cite></li></li>';
-	}
+// 		echo '<li>"'.$description.'"<br/><cite>- '.$name.', <a href="http://'.parseLink($link).'/">'.$website.'</a></cite></li></li>';
+// 	}
 	
-	echo '</ul><hr>';
-}
+// 	echo '</ul><hr>';
+// }
 
 // if( count($additionals) > 0 ) {
 // 	echo '<h2 id="links">'. tl('Additional Links') .'</h2>';

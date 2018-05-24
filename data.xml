@@ -3,11 +3,11 @@
 
 <game>	
 	<title>Cygnus Defense Alpha</title>
-	<founding-date>September 1, 2010</founding-date>
-	<website>http://www.website.com/</website>
-	<based-in>Cityville, Metropolisland</based-in>
+	<founding-date>June, 10th 2018</founding-date>
+	<website>http://www.zeonstudios.com.br/</website>
+	<based-in>Bauru, Sao Paulo, Brazil</based-in>
 	
-	<press-contact>press-contact@company.com</press-contact>
+	<press-contact>contato@zeonstudios.com.br</press-contact>
 	<phone>+00 (1) 22 33 44 55 66</phone>
 	<address>
 		<line>Address Line 1</line>
@@ -17,21 +17,28 @@
 
 	<socials>
 		<social>
-			<name>twitter.com/MyCompanyName</name>
-			<link>twitter.com/MyCompanyName</link>
+			<name>Twitter</name>
+			<link>twitter.com/zeonstudios</link>
 		</social>
 		<social>
-			<name>facebook.com/MyCompanyName</name>
-			<link>facebook.com/MyCompanyName</link>
-		</social>
-		<social>
-			<name>Skype</name>
-			<link>callto:MySkypeName</link>
+			<name>Facebook</name>
+			<link>facebook.com/zeonstudiosvr</link>
 		</social>
 	</socials>
 
 	<description>	
-		We're games studio and we make games. We're also capable of editing XML files.
+		Protect planet Earth in this exciting retro-futuristic puzzle game that will test your alertness, quick thinking and multi-tasking skills.
+
+		Test yout cunning!
+
+		In this game you'll join the the ranks of the Special Defense Force and control the Cygnus Alpha Defense base through 5 interconnected consoles simultaneously, each one with its own controlling scheme and effects on the system as a whole. 
+
+
+		The game features:
+		
+		- 15 hand-crafted levels, 3+ hours of total gameplay
+		- Beautiful stylized retro-futuristic art
+		- A novel take on using space as puzzle design element
 	</description>
 		
 	<histories>
@@ -47,13 +54,8 @@
 		
 	<trailers>
 		<trailer>
-			<name>This video is nice</name>
-			<youtube>7jQbITg0MSk</youtube>
-		</trailer>
-		<trailer>
-			<name>This one too</name>
-			<youtube>0CevOaYrYDA</youtube>
-			<vimeo>12536488</vimeo>
+			<name>Release Trailer</name>
+			<vimeo>265043286</vimeo>
 		</trailer>
 	</trailers>
 	
@@ -118,37 +120,44 @@
 	
 	<credits>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Bruno 'mutt' Arruda</person>
+			<role>2D and UI Artist</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
+			<person>Danielle Luiz</person>
+			<role>3D Artist</role>
 		</credit>
 		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<person>Gabriel Naro</person>
+			<website>www.rednoisemusic.com</website>
+			<role>Music and SFX</role>
+		</credit>
+		<credit>
+			<person>Rodrigo Ueda</person>
+			<role>Programmer</role>
+		</credit>
+		<credit>
+			<person>Hugo Zopone</person>
+			<role>Producer</role>
 		</credit>
 	</credits>
 	
 	<contacts>
 		<contact>
 			<name>Inquiries</name>
-			<mail>rami@vlambeer.com</mail>
+			<mail>contato@zeonstudios.com.br</mail>
 		</contact>
 		<contact>
 			<name>Twitter</name>
-			<link>http://twitter.com/MyCompanyName</link>
+			<link>http://twitter.com/zeonstudios</link>
 		</contact>
 		<contact>
 			<name>Facebook</name>
-			<link>http://facebook.com/MyCompanyName</link>
+			<link>http://facebook.com/zeonstudiosvr</link>
 		</contact>
 		<contact>
 			<name>Web</name>
-			<link>MyCompanyWebsite.com</link>
+			<link>http://www.zeonstudios.com.br/</link>
 		</contact>
 	</contacts>
 </game>
