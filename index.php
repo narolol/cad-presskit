@@ -338,7 +338,7 @@ echo"							</p>
 							
 echo'
 		<h2>Store Link</h2>
-		
+		<p style="font-style:italic">In Review - COMING SOON</p>
 
 		';
 
